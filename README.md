@@ -13,7 +13,7 @@ git clone https://github.com/MNLierman/sshd-dhcpd-eng-cockpit-plugin
 sudo ln -s sshd-dhcpd-eng-cockpit-plugin /local/share/cockpit/sshd-dhcpd-eng-cockpit-plugin\sshd
 sudo ln -s "$(pwd)/sshd-dhcpd-eng-cockpit-plugin" /local/share/cockpit/sshd-dhcpd-eng-cockpit-plugin\dhcpd
 ```
-<br><br><br>
+<br><br>
 
 ## Remaining Configuration
 ##### The screenshots are still in Spanish, but one day I may replace them.
