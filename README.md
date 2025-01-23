@@ -10,8 +10,8 @@ Example: `apt install cockpit`
 ## Plugin Installation
 ```
 git clone https://github.com/MNLierman/sshd-dhcpd-eng-cockpit-plugin
-sudo ln -s sshd-dhcpd-eng-cockpit-plugin /local/share/cockpit/sshd-dhcpd-eng-cockpit-plugin\sshd
-sudo ln -s "$(pwd)/sshd-dhcpd-eng-cockpit-plugin" /local/share/cockpit/sshd-dhcpd-eng-cockpit-plugin\dhcpd
+sudo ln -sf "$(pwd)/sshd-dhcpd-eng-cockpit-plugin/dhcpd" /local/share/cockpit/dhcpd
+sudo ln -sf "$(pwd)/sshd-dhcpd-eng-cockpit-plugin/sshd" /local/share/cockpit/sshd
 ```
 <br><br>
 
