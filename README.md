@@ -15,6 +15,9 @@ sudo ln -s "$(pwd)/sshd-dhcpd-eng-cockpit-plugin" /local/share/cockpit/sshd-dhcp
 ```
 <br><br><br>
 
+## Remaining Configuration
+##### The screenshots are still in Spanish, but one day I may replace them.
+
 The folders corresponding to the two services will be symlinked to Cockpit's plugin directory, which in typically located at **/usr/share/cockpit**. By symlinking them, you can keep up to date with any changes, or you can fork this repo and make your own changes, and keep your own versions up to date using this same method. No need to build or make anything.
 
 If you prefer, you can manually copy the two folders to the directory corresponding to your Cockpit's plugins.
