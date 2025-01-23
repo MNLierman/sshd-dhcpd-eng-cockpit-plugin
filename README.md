@@ -3,36 +3,16 @@ Sure thing! Here’s the translation of the instructions page into English:
 # sshd-dhcpd-cockpit-plugin
 
 ## Overview
-A plugin for Cockpit that allows the configuration and monitoring of SSH and DHCP services through a web interface.
+This is a plugin for Cockpit Project that allows the configuration and monitoring of SSH and DHCP services through a web interface.
 
 ## Cockpit Installation
-To install the plugin, you need to have Cockpit installed on the machine you want to monitor.
-
-Install Cockpit:
-```
-yum -y install cockpit
-```
-
-Enable Cockpit:
-```
-systemctl enable --now cockpit.socket
-```
-
-Test if Cockpit is working by accessing the following URL from another machine using a browser:
-
-[ip_of_cockpit_machine]:9090
-
-A screen like this should be displayed:
-![](https://github.com/leuribeiru/sshd-dhcpd-cockpit-plugin/blob/main/images/1.png?raw=true)
-
+If you haven't already done so, you need to install the Cockpit Plugin for the machine you want to monitor. Most package managers provide easy installation, this can be done through `apt`, `apk`, or `yum`.
+Example: `apt install cockpit`
 
 ## Plugin Installation
-Download the [sshd-dhcpd-cockpit-1.0-1.el8.noarch.rpm](https://github.com/leuribeiru/sshd-dhcpd-cockpit-plugin/blob/main/sshd-dhcpd-cockpit-1.0-1.el8.noarch.rpm?raw=true) file from this repository.
-
-Install it on your RedHat server:
-```
-rpm -ihv sshd-dhcpd-cockpit-1.0-1.el8.noarch.rpm
-```
+`git clone https://github.com/MNLierman/sshd-dhcpd-eng-cockpit-plugin`<br>
+`sudo ln -s sshd-dhcpd-eng-cockpit-plugin /local/share/cockpit/sshd-dhcpd-eng-cockpit-plugin`
+<br><br><br>
 
 The folders corresponding to the two services will be copied to Cockpit's plugin directory, which in Red Hat distribution is located at **/usr/share/cockpit**.
 
