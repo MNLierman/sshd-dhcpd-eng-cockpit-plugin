@@ -13,7 +13,7 @@ git clone https://github.com/MNLierman/sshd-dhcpd-eng-cockpit-plugin
 sudo ln -s sshd-dhcpd-eng-cockpit-plugin /local/share/cockpit/sshd-dhcpd-eng-cockpit-plugin\sshd
 sudo ln -s "$(pwd)/sshd-dhcpd-eng-cockpit-plugin" /local/share/cockpit/sshd-dhcpd-eng-cockpit-plugin\dhcpd
 ```
-
+<br><br><br>
 
 The folders corresponding to the two services will be symlinked to Cockpit's plugin directory, which in typically located at **/usr/share/cockpit**. By symlinking them, you can keep up to date with any changes, or you can fork this repo and make your own changes, and keep your own versions up to date using this same method. No need to build or make anything.
 
